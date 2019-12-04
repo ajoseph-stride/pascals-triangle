@@ -26,7 +26,6 @@ public class PascalsTriangleGeneratorTest {
         assertArrayEquals(expectedOutput, pascalsTriangleGenerator.generateTriangle(0));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void testTriangleWithOneRow() {
         int[][] expectedOutput = new int[][]{
