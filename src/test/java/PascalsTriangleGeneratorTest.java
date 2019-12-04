@@ -35,7 +35,6 @@ public class PascalsTriangleGeneratorTest {
         assertArrayEquals(expectedOutput, pascalsTriangleGenerator.generateTriangle(1));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void testTriangleWithTwoRows() {
         int[][] expectedOutput = new int[][]{
